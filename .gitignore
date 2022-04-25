@@ -1,0 +1,6 @@
+venv
+db.sqlite3
+djtest/__pycache__
+qaas/__pycache__
+qaas/migrations
+.vscode

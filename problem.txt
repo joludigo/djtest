@@ -1,0 +1,29 @@
+Application description 
+The app needs to have the functionalities of being able to build & host quizzes (simple multiple-choice with questions and answers) that can be solved by using an API, we’ll call it QaaS. 
+The users would interact with our QaaS service through a dedicated client application. 
+You’re responsible for the API and the admin interface that is use by your colleagues in house. 
+
+Functional requirements 
+    Quiz creator 
+    As quiz creator I want to: 
+        Build a quiz 
+        Invite participants through e-mail 
+        Check up on the progress of the quiz 
+        Check up on the scores of the quiz 
+        Notify participants of the results through e-mail 
+        Browse quizzes, participants, invitees, answers,... - search, filter,... Only see quizzes relevant to me 
+    Quiz participant 
+    As a quiz participant I want to: 
+        Accept an invitation
+        Participate in the quiz 
+        Check up on the progress of the quiz 
+        Browse my quizzes - search, filter,... 
+        Only see quizzes relevant to me 
+    Admin 
+    As an admin I want to: 
+        Be able to troubleshoot through the admin when users have issues Search quizzes, participants, answers,... 
+        Modify quizzes, participants, answers,... 
+        Download a daily report on the usage of our QaaS service (CSV/JSON/...) 
+Technical requirements 
+Django 3+ should be used 
+We expect you to write five tests on whatever you think is relevant to test 
